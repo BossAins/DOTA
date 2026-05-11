@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.main-box {
+    width: 800px;
+    margin: auto;
+    border: 2px solid #6bbf59;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.name-box {
+    border: 2px solid #6bbf59;
+    padding: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid #6bbf59;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.picture-box {
+    border: 2px solid #6bbf59;
+    width: 180px;
+    height: 180px;
+}
+
+.picture-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
