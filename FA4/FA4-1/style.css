@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.story-box {
+    width: 150px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+}
+
+.story-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
