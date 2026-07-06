@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 320px;
+    margin: 10px auto;
+}
+
+.form-container h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 3px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    font-size: 15px;
+}
+
+button,
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 18px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #ddd;
+}
+
+.result {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.result p {
+    margin: 4px 0;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.footer {
+    margin-top: 15px;
+    color: #555;
+}
+
+.login-box {
+    width: 360px;
+    margin: 25px auto;
+}
+
+.top-bar {
+    height: 50px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.menu {
+    font-size: 25px;
+    border: 1px solid #eee;
+    padding: 5px 12px;
+    color: #666;
+}
+
+.remember-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.remember-row label {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.remember-row input {
+    width: auto;
+}
+
+.green-footer {
+    text-align: center;
+    color: green;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.container {
+    width: 350px;
+    margin: 80px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.center {
+    text-align: center;
+}
